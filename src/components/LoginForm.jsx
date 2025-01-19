@@ -1,4 +1,4 @@
-
+import Input from "./compos/Input"
 
 
 function LoginForm() {
@@ -7,8 +7,9 @@ function LoginForm() {
 
 
     return (
-        <form>
-            hello
+        <form className="loginForm">
+            <label htmlFor="" className="username">username</label>
+            <Input />
         </form>
     )
 }

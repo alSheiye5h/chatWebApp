@@ -5,7 +5,7 @@
 function Input() {
 
     return(
-        <input></input>
+        <input type="text" />
     )
 }
 

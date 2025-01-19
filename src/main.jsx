@@ -15,6 +15,8 @@ const router = createBrowserRouter(pages);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <main className='main'>
+      <RouterProvider router={router} />
+    </main>
   </StrictMode>,
 )
