@@ -2,10 +2,12 @@
 
 
 
-function Input() {
+function Input(props) {
+
+    const {placeholder, className, type } = props
 
     return(
-        <input type="text" className="" />
+        <input type={type} placeholder={placeholder} className={className} />
     )
 }
 

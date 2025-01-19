@@ -8,8 +8,9 @@ function LoginForm() {
 
     return (
         <form className="loginForm">
-            <label htmlFor="" className="username">username</label>
-            <Input />
+            <h2>AlloOui</h2>
+            <Input type="text" placeholder="username" className="userInp" />
+            <Input type="password" placeholder="password" className="userInp" />
         </form>
     )
 }
