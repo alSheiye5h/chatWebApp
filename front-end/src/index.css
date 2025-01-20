@@ -123,10 +123,16 @@
 }
 
 .videoCallSvg {
-  width: 33px;
+  width: 25px;
 }
 
 .threeP {
-  width: 33px;
+  width: 20px;
+}
 
+.ListProfileNest {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
 }
