@@ -23,14 +23,14 @@
 .main {
   width: 70%;
   height: 70%; 
-  padding: 20px;
+  /* padding: 20px; */
   text-align: center;
   border-radius: 8px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
-  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+  background-color: rgba(0, 0, 0, 0.2);
   backdrop-filter: blur(10px); 
   -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2); 
+  border: 1px solid rgba(0, 0, 0, 0.2); 
   border-radius: 16px; 
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); 
  
@@ -41,6 +41,7 @@
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  margin: 20px;
 }
 
 .loginForm h1 {
@@ -71,4 +72,52 @@
 .loginSub:hover {
   cursor: pointer;
   opacity: 0.8;
+}
+
+.articleInbox {
+  display: flex;
+  margin: 0px 20px;
+  
+}
+
+.List {
+  border-right: 1px solid rgb(158, 158, 158);
+  width: 27%;
+  height: 68.5vh;
+  padding: 5px;
+}
+
+.Msger {
+  border-right: 1px solid rgb(158, 158, 158);
+  width: 53%;
+}
+
+.Msger1 {
+  border-bottom: 1px solid rgb(158, 158, 158);
+  height: 10vh;
+}
+
+.Msger2 {
+  height: 49vh;
+}
+
+.Msger3 {
+  border-top: 1px solid rgb(158, 158, 158);
+  /* height: 12vh; */
+}
+
+.ListProfile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.listImg {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.ListUsername {
+
 }
