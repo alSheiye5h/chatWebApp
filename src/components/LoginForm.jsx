@@ -8,7 +8,7 @@ function LoginForm() {
 
     return (
         <form className="loginForm">
-            <h2>AlloOui</h2>
+            <h1>AlloOui</h1>
             <Input type="text" placeholder="username" className="userInp" />
             <Input type="password" placeholder="password" className="userInp" />
             <Input type="submit" className="loginSub" value="login"/>
