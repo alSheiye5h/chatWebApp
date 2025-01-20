@@ -10,10 +10,11 @@ export const Login = async (url, method, headers, data) => {
             data
         });
         return response        
-    } catch {
+    } catch (error) {
         console.error('API Error:', error.response || error.message);
         throw error.response?.data || error.message;
     }
 }
+
 
 

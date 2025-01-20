@@ -10,7 +10,7 @@ app.use(cookieParser());
 
 app.use(bodyParser.json());
 
-const userRouter = require("./router/api");
+const authRouter = require("./routes/login");
 
 app.get("/show", (req, res) => {
   res.status(200).render("show");
