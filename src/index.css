@@ -35,14 +35,30 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
 }
 
 .userInp {
-  padding: 13px;
+  padding: 20px 13px;
   outline: none;
   border: 0cap;
   border-radius: 5px;
   width: 50%;
   min-width: 180px;
+}
+
+.loginSub {
+  padding:10px 0px;
+  width: 20%;
+  font-size: 15px;
+  font-weight: bold;
+  color: #242424;
+  background-color: rgb(167, 169, 170);
+  border: 0cap;
+  border-radius: 8px;
+}
+
+.loginSub:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }

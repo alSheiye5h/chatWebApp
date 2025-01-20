@@ -11,6 +11,8 @@ function LoginForm() {
             <h2>AlloOui</h2>
             <Input type="text" placeholder="username" className="userInp" />
             <Input type="password" placeholder="password" className="userInp" />
+            <Input type="submit" className="loginSub" value="login"/>
+            
         </form>
     )
 }
