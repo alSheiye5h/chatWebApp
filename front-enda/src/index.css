@@ -1,0 +1,76 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  background-color: rgba(255, 255, 255, 0.87);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+  /* background-color: #242424; */
+  background-image: url("/public/bootDev.png");
+
+}
+
+#root {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width: 100%; 
+  height: 98vh;
+}
+
+.main {
+  width: 70%;
+  height: 70%; 
+  /* background-color: rgb(68, 63, 63); */
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); 
+  background-color: rgba(0, 0, 0, 0);
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2); 
+  border-radius: 16px; 
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2); 
+ 
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.loginForm h1 {
+  font-weight: bold;
+}
+
+.userInp {
+  padding: 20px 13px;
+  outline: none;
+  border: 0cap;
+  border-radius: 5px;
+  width: 50%;
+  min-width: 180px;
+  font-size: 15px;
+}
+
+.loginSub {
+  padding:10px 0px;
+  width: 20%;
+  font-size: 15px;
+  font-weight: bold;
+  color: #242424;
+  background-color: rgb(167, 169, 170);
+  border: 0cap;
+  border-radius: 8px;
+}
+
+.loginSub:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
