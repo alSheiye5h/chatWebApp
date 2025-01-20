@@ -4,7 +4,7 @@ const {login} = require("../controllers/login")
 
 
 
-Router.route('/login').post(login).get(login)
+Router.route('/login').post(login)
 
 
 
