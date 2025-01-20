@@ -1,11 +1,11 @@
 const Router = require('express').Router();
 
-const login = require("../controllers/login")
+const {login} = require("../controllers/login")
 
 
 
-Router.route('/login').get(login)
+Router.route('/login').post(login).get(login)
 
 
 
-module.exports = {Router}
+module.exports = Router

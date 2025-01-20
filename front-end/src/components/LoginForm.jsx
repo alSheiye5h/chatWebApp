@@ -4,7 +4,7 @@ import { useState } from "react"
 import Input from "./compos/Input"
 import { Login } from '../services/userServices'
 
-const url = "127.0.0.1:3001/api/v1/login"
+const url = "http://127.0.0.1:3001/api/v1/login"
 const method = "POST"
 const headers = {
     'Content-Type': 'application/json',
@@ -14,13 +14,11 @@ function LoginForm() {
 
     let [username, setUsername] = useState("")
     let [password, setpassword] = useState("")
-    
-
 
     async function handleSubmit(event) {
         event.preventDefault();
         try {
-            const response = await Login(url, method, headers, {username, password}).await
+            const response = await Login(url, method, headers, {username, password})
             console.log(response)
         } catch (err) {
             console.log(err)
