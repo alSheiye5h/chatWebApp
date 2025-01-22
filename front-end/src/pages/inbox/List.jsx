@@ -1,5 +1,6 @@
 import ListProfile from "./List/ListProfile"
 import ListSearchBar from "./List/ListSearchBar"
+import Partie from "./List/Partie"
 
 
 function List() {
@@ -10,6 +11,7 @@ function List() {
     <section className="List">
         <ListProfile />
         <ListSearchBar />
+        <Partie />
     </section>   
     )
 

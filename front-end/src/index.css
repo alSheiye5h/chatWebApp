@@ -169,3 +169,31 @@
   color: rgba(155, 155, 155, 0.5);
   background-color: rgba(0, 0, 0, 0.4);
 }
+
+.listPartie {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  margin-top: 1vh;
+  border: 1px solid black;
+}
+
+.listPartieP {
+  display: inline-block;
+}
+
+.listPartieImg {
+  display: inline-block;
+  left: 0;
+  right: auto;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.listPartieSpan {
+  display: block;
+  max-width: 220px; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
