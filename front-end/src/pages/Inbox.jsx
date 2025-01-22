@@ -1,6 +1,6 @@
 import List from "./inbox/List"
 import Msger from "./inbox/Msger"
-
+import Aside from "./inbox/Aside"
 
 function Inbox() {
 
@@ -8,6 +8,7 @@ function Inbox() {
         <article className="articleInbox">
             <List />
             <Msger />
+            <Aside />
         </article>
     )
 

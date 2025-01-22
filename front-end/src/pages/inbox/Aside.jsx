@@ -1,14 +1,14 @@
-
+import TopAside from "./Aside/TopAside"
 
 function Aside() {
 
 
 
  return (
-    <section>
+    <section className="Aside">
+        <TopAside />
 
 
-        
     </section>
  )
 

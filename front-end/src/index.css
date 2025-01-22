@@ -282,3 +282,35 @@
   font-size: 15px;
 }
 
+.Aside {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.topAside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.asidePrfImg {
+  width: 80px;
+  border-radius: 50%;
+  margin: 20px 20px 0px 20px;
+}
+
+.asidePrfUsn {
+  font-weight: bold;
+  margin: 10px 20px;
+
+}
+
+.asidePrfBio {
+  font-size: 15px;
+  font-weight: bold;
+}
+
