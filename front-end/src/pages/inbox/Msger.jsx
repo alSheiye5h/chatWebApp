@@ -1,4 +1,6 @@
 import Msger1 from "./msger/Msger1"
+import Msger2 from "./msger/Msger2"
+import Msger3 from "./msger/Msger3"
 
 function Msger() {
 
@@ -7,13 +9,11 @@ function Msger() {
     return (
         <section className="Msger">
             <Msger1 />
-            <div className="Msger2">
+            
+            <Msger2 />
 
-            </div>
-            <div className="Msger3">
-
-
-            </div>
+            <Msger3 />
+            
         </section>
     )
 }
