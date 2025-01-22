@@ -11,7 +11,15 @@ function List() {
     <section className="List">
         <ListProfile />
         <ListSearchBar />
-        <Partie />
+        <div className="divParties" >
+            <Partie />
+            <Partie />
+            <Partie />
+            <Partie />
+            <Partie />
+            <Partie />
+            <Partie />
+        </div>
     </section>   
     )
 

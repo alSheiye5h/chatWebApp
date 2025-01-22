@@ -83,7 +83,7 @@
 .List {
   border-right: 1px solid rgb(158, 158, 158);
   width: 27%;
-  height: 68.5vh;
+  height: 65vh;
   padding: 18px 5px;
 }
 
@@ -93,8 +93,49 @@
 }
 
 .Msger1 {
+  display: flex;
+  align-items: center;
+  padding: 3%;
   border-bottom: 1px solid rgb(158, 158, 158);
   height: 10vh;
+}
+
+.Msger1P {
+  margin-left: 2%;
+  flex: 1;
+}
+
+.Msger1Span1,
+.Msger1Span2 {
+  display: block;
+  text-align: start;
+}
+
+.Msger1Span1 {
+  font-weight: bold;
+}
+
+.Msger1Span2 {  
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 420px;
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.msger1Img {
+  width: 65px;
+  border-radius: 50%;
+}
+
+.Msger1DivSvg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
 }
 
 .Msger2 {
@@ -170,30 +211,47 @@
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+.divParties {
+  height: 55vh;
+  overflow-y: scroll; 
+}
+
+.divParties::-webkit-scrollbar {
+  display: none; 
+}
+
 .listPartie {
-  /* display: flex;
+  display: flex;
   align-items: center;
-  justify-content: space-between; */
-  margin-top: 1vh;
-  border: 1px solid black;
+  justify-content: space-between;
 }
 
 .listPartieP {
-  display: inline-block;
+  flex: 1;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  margin-left: 20px;
+  text-align: start;
 }
 
 .listPartieImg {
-  display: inline-block;
-  left: 0;
-  right: auto;
-  width: 60px;
+  width: 57px;
   border-radius: 50%;
 }
 
 .listPartieSpan {
   display: block;
-  max-width: 220px; 
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.listPartieSpanusrn {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.listPartieSpanmsg {
+  font-size: 15px;
+}
+
