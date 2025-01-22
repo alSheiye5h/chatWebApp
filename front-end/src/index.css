@@ -142,8 +142,36 @@
 }
 
 .Msger3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   border-top: 1px solid rgb(158, 158, 158);
-  /* height: 12vh; */
+  height: 7vh;
+  padding: 0px 20px;
+}
+
+.Msger3Inp {
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: 0cap;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  flex: 1;
+  margin: 0px 20px;
+}
+
+.Msger3Btn {
+  padding: 8px 20px;
+  background-color: rgb(21, 181, 235);
+  border: 0cap;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.Msger3Svg {
+  display: flex;
+  align-items: center;
+  gap: 13px;
 }
 
 .ListProfile {
