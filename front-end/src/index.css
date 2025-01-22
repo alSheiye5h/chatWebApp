@@ -84,7 +84,7 @@
   border-right: 1px solid rgb(158, 158, 158);
   width: 27%;
   height: 68.5vh;
-  padding: 5px;
+  padding: 18px 5px;
 }
 
 .Msger {
@@ -135,4 +135,37 @@
   align-items: center;
   justify-content: center;
   gap: 12px;
+}
+
+.ListSearchBar {
+  display: flex;
+  width: 90%;
+  margin-top: 20px;
+  justify-content: space-between;
+
+}
+
+.SearchBar {
+  border: 0cap;
+  outline: none; 
+  padding: 6px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 80%;
+}
+
+.SearchBtn {
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  color: rgba(97, 97, 97, 0.5);
+  outline: none;
+  border: 0cap;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+.SearchBtn:hover {
+  cursor: pointer;
+  color: rgba(155, 155, 155, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
 }
