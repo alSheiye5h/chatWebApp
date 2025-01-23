@@ -134,7 +134,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100px;
+  width: 150px;
 }
 
 .Msger2 {
@@ -310,6 +310,11 @@
 }
 
 .asidePrfBio {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.chatSetP {
   font-size: 15px;
   font-weight: bold;
 }
