@@ -1,7 +1,14 @@
 import axios from "axios";
-
+import { connectToDb } from './connectDb'
 
 export const initial = () => {
+    try {
+        connectToDb();
+        
+
+    } catch (err) {
+        console.log(err)
+    }
 
 }
 
