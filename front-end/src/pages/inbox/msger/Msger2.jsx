@@ -42,15 +42,28 @@ function Msger2() {
     {        
         msg: "illum magnam vero aspernatur eos. Accusantium, adipisci optio?",
         from: "other"
+    },
+    {        
+        msg: "illum magnam vero aspernatur eos. Accusantium, adipisci optio?",
+        from: "other"
     }
     ]
+
+    let renderMsgs = msgs.map((m, index) => {
+        
+        if (m.from == "self") {
+            return (index != 0 && m.from == msgs.at(index - 1).from) ? <span className="Msger2Self">{m.msg}</span> : <p className="Msger2Self">{m.msg}</p>;
+        } else {
+            return (index != 0 && m.from == msgs.at(index - 1).from) ? <span className="Msger2Other">{m.msg}</span> : <p className="Msger2Other">{m.msg}</p>;
+        }
+    })
 
 
     return (
         <div className="Msger2">
-            <img src="/public/MainAfter.jpg" />
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio atque, voluptates illo obcaecati rerum maiores dicta, natus accusamus adipisci rem, doloribus quaerat. Quas animi corrupti repellendus repudiandae. Asperiores, accusantium deserunt.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio atque, voluptates illo obcaecati rerum maiores dicta, natus accusamus adipisci rem, doloribus quaerat. Quas animi corrupti repellendus repudiandae. Asperiores, accusantium deserunt.</p>
+            {/* <img className="Msger2SelfImg" src="/public/MainAfter.jpg" />
+            <img className="Msger2OtherImg" src="/public/MainAfter.jpg" /> */}
+            {renderMsgs}
         </div>
     )
 }

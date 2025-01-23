@@ -1,6 +1,12 @@
 import axios from "axios";
 
 
+export const initial = () => {
+
+}
+
+
+
 export const Login = async (url, method, headers, data) => {
     try {
         const response = await axios({
@@ -15,6 +21,3 @@ export const Login = async (url, method, headers, data) => {
         throw error.response?.data || error.message;
     }
 }
-
-
-
